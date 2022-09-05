@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20DDA5D28C6349C0044B85F /* scrumTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDA5C28C6349C0044B85F /* scrumTaskApp.swift */; };
+		B20DDA5F28C6349C0044B85F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDA5E28C6349C0044B85F /* ContentView.swift */; };
+		B20DDA6128C6349D0044B85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDA6028C6349D0044B85F /* Assets.xcassets */; };
+		B20DDA6428C6349D0044B85F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDA6328C6349D0044B85F /* Preview Assets.xcassets */; };
+		B20DDA6E28C6349D0044B85F /* scrumTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDA6D28C6349D0044B85F /* scrumTaskTests.swift */; };
+		B20DDA7828C6349D0044B85F /* scrumTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDA7728C6349D0044B85F /* scrumTaskUITests.swift */; };
+		B20DDA7A28C6349D0044B85F /* scrumTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDA7928C6349D0044B85F /* scrumTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20DDA6A28C6349D0044B85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20DDA5128C6349C0044B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20DDA5828C6349C0044B85F;
+			remoteInfo = scrumTask;
+		};
+		B20DDA7428C6349D0044B85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20DDA5128C6349C0044B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20DDA5828C6349C0044B85F;
+			remoteInfo = scrumTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20DDA5928C6349C0044B85F /* scrumTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDA5C28C6349C0044B85F /* scrumTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumTaskApp.swift; sourceTree = "<group>"; };
+		B20DDA5E28C6349C0044B85F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20DDA6028C6349D0044B85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20DDA6328C6349D0044B85F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20DDA6928C6349D0044B85F /* scrumTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrumTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDA6D28C6349D0044B85F /* scrumTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumTaskTests.swift; sourceTree = "<group>"; };
+		B20DDA7328C6349D0044B85F /* scrumTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrumTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDA7728C6349D0044B85F /* scrumTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumTaskUITests.swift; sourceTree = "<group>"; };
+		B20DDA7928C6349D0044B85F /* scrumTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20DDA5628C6349C0044B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA6628C6349D0044B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA7028C6349D0044B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20DDA5028C6349C0044B85F = {
+			isa = PBXGroup;
+			children = (
+				B20DDA5B28C6349C0044B85F /* scrumTask */,
+				B20DDA6C28C6349D0044B85F /* scrumTaskTests */,
+				B20DDA7628C6349D0044B85F /* scrumTaskUITests */,
+				B20DDA5A28C6349C0044B85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20DDA5A28C6349C0044B85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDA5928C6349C0044B85F /* scrumTask.app */,
+				B20DDA6928C6349D0044B85F /* scrumTaskTests.xctest */,
+				B20DDA7328C6349D0044B85F /* scrumTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20DDA5B28C6349C0044B85F /* scrumTask */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDA5C28C6349C0044B85F /* scrumTaskApp.swift */,
+				B20DDA5E28C6349C0044B85F /* ContentView.swift */,
+				B20DDA6028C6349D0044B85F /* Assets.xcassets */,
+				B20DDA6228C6349D0044B85F /* Preview Content */,
+			);
+			path = scrumTask;
+			sourceTree = "<group>";
+		};
+		B20DDA6228C6349D0044B85F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDA6328C6349D0044B85F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20DDA6C28C6349D0044B85F /* scrumTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDA6D28C6349D0044B85F /* scrumTaskTests.swift */,
+			);
+			path = scrumTaskTests;
+			sourceTree = "<group>";
+		};
+		B20DDA7628C6349D0044B85F /* scrumTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDA7728C6349D0044B85F /* scrumTaskUITests.swift */,
+				B20DDA7928C6349D0044B85F /* scrumTaskUITestsLaunchTests.swift */,
+			);
+			path = scrumTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20DDA5828C6349C0044B85F /* scrumTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDA7D28C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTask" */;
+			buildPhases = (
+				B20DDA5528C6349C0044B85F /* Sources */,
+				B20DDA5628C6349C0044B85F /* Frameworks */,
+				B20DDA5728C6349C0044B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrumTask;
+			productName = scrumTask;
+			productReference = B20DDA5928C6349C0044B85F /* scrumTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20DDA6828C6349D0044B85F /* scrumTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDA8028C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTaskTests" */;
+			buildPhases = (
+				B20DDA6528C6349D0044B85F /* Sources */,
+				B20DDA6628C6349D0044B85F /* Frameworks */,
+				B20DDA6728C6349D0044B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20DDA6B28C6349D0044B85F /* PBXTargetDependency */,
+			);
+			name = scrumTaskTests;
+			productName = scrumTaskTests;
+			productReference = B20DDA6928C6349D0044B85F /* scrumTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20DDA7228C6349D0044B85F /* scrumTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDA8328C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTaskUITests" */;
+			buildPhases = (
+				B20DDA6F28C6349D0044B85F /* Sources */,
+				B20DDA7028C6349D0044B85F /* Frameworks */,
+				B20DDA7128C6349D0044B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20DDA7528C6349D0044B85F /* PBXTargetDependency */,
+			);
+			name = scrumTaskUITests;
+			productName = scrumTaskUITests;
+			productReference = B20DDA7328C6349D0044B85F /* scrumTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20DDA5128C6349C0044B85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B20DDA5828C6349C0044B85F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B20DDA6828C6349D0044B85F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B20DDA5828C6349C0044B85F;
+					};
+					B20DDA7228C6349D0044B85F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B20DDA5828C6349C0044B85F;
+					};
+				};
+			};
+			buildConfigurationList = B20DDA5428C6349C0044B85F /* Build configuration list for PBXProject "scrumTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20DDA5028C6349C0044B85F;
+			productRefGroup = B20DDA5A28C6349C0044B85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20DDA5828C6349C0044B85F /* scrumTask */,
+				B20DDA6828C6349D0044B85F /* scrumTaskTests */,
+				B20DDA7228C6349D0044B85F /* scrumTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20DDA5728C6349C0044B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDA6428C6349D0044B85F /* Preview Assets.xcassets in Resources */,
+				B20DDA6128C6349D0044B85F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA6728C6349D0044B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA7128C6349D0044B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20DDA5528C6349C0044B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDA5F28C6349C0044B85F /* ContentView.swift in Sources */,
+				B20DDA5D28C6349C0044B85F /* scrumTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA6528C6349D0044B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDA6E28C6349D0044B85F /* scrumTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDA6F28C6349D0044B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDA7A28C6349D0044B85F /* scrumTaskUITestsLaunchTests.swift in Sources */,
+				B20DDA7828C6349D0044B85F /* scrumTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20DDA6B28C6349D0044B85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20DDA5828C6349C0044B85F /* scrumTask */;
+			targetProxy = B20DDA6A28C6349D0044B85F /* PBXContainerItemProxy */;
+		};
+		B20DDA7528C6349D0044B85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20DDA5828C6349C0044B85F /* scrumTask */;
+			targetProxy = B20DDA7428C6349D0044B85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20DDA7B28C6349D0044B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20DDA7C28C6349D0044B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20DDA7E28C6349D0044B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scrumTask/Preview Content\"";
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20DDA7F28C6349D0044B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scrumTask/Preview Content\"";
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20DDA8128C6349D0044B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrumTask.app/scrumTask";
+			};
+			name = Debug;
+		};
+		B20DDA8228C6349D0044B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrumTask.app/scrumTask";
+			};
+			name = Release;
+		};
+		B20DDA8428C6349D0044B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = scrumTask;
+			};
+			name = Debug;
+		};
+		B20DDA8528C6349D0044B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAW3JP8FB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silicode.scrumTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = scrumTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20DDA5428C6349C0044B85F /* Build configuration list for PBXProject "scrumTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDA7B28C6349D0044B85F /* Debug */,
+				B20DDA7C28C6349D0044B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDA7D28C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDA7E28C6349D0044B85F /* Debug */,
+				B20DDA7F28C6349D0044B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDA8028C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDA8128C6349D0044B85F /* Debug */,
+				B20DDA8228C6349D0044B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDA8328C6349D0044B85F /* Build configuration list for PBXNativeTarget "scrumTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDA8428C6349D0044B85F /* Debug */,
+				B20DDA8528C6349D0044B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20DDA5128C6349C0044B85F /* Project object */;
+}
