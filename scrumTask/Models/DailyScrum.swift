@@ -1,20 +1,24 @@
-//
-//  DailyScrum.swift
-//  scrumTask
-//
-//  Created by Sofyanne Badir on 05/09/2022.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import Foundation
 
-
-struct DailyScrum {
+struct DailyScrum: Identifiable {
+    let id: UUID
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
+    
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
+        self.id = id
+        self.title = title
+        self.attendees = attendees
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+    }
 }
-
 
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
