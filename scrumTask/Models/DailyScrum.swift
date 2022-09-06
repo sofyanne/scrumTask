@@ -1,6 +1,6 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import Foundation
 
@@ -33,7 +33,7 @@ extension DailyScrum {
 extension DailyScrum {
     struct Attendee: Identifiable {
         
-        let id : UUID
+        let id: UUID
         var name: String
         
         init(id: UUID = UUID(), name: String) {
@@ -42,5 +42,16 @@ extension DailyScrum {
         }
         
         
+    }
+    
+    struct Data {
+        var title: String = ""
+        var attendees: [Attendee] = []
+        var lengthInMinutes: Double = 5
+        var theme: Theme = .seafoam
+    }
+    
+    var data: Data {
+        Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
     }
 }
